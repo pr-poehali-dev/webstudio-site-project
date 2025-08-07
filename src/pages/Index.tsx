@@ -135,7 +135,7 @@ const Index = () => {
                   <CardTitle className="text-xl text-gray-900">{service.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-600 text-center">
+                  <CardDescription className="text-gray-600 text-center text-sm md:text-base leading-relaxed">
                     {service.description}
                   </CardDescription>
                 </CardContent>
